@@ -1,0 +1,162 @@
+ *, *::after, *::before { /*убираем отступы */
+    padding: 0;
+    margin: 0;
+    font-weight: 900;
+} 
+html{
+    box-sizing: border-box;
+}
+body{
+    font-family: "Montserrat", sans-serif; /*устанавливаем шрифт Монтсеррат*/
+    color: #000; /*устанавливаем цвет текста*/
+    font-size: 20px; /*устанавливаем размер шрифта*/
+}
+ul{
+    list-style: none; /*устанавливаем тип маркера для таблиц(отсутствует)*/
+}
+a{
+    text-decoration: none; /*устанавливаем оформление текста(отсутствует подчеркивание)*/
+    color: inherit; /*наследует значение родителя*/
+}
+.header{
+    width: auto;
+    height: 900px;
+    margin: 0 auto; /*указывает, что размер отступов будет автоматически рассчитан браузером.*/
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+header{
+    background: linear-gradient(180deg, #EDA418 47.4%, rgba(237, 164, 24, 0) 100%); /*назначаем цвет фона у шапки сайта*/
+}
+nav{
+    padding-top: 11px;
+    margin-bottom: 23px;
+}
+.nav_menu{
+    display: flex; /*назначаем все эдементы в nav_menu по колонкам*/
+    justify-content: space-between; /*выравниванем по центральной линии, первый и последний эл-т находятся по разным концам, а место между ними равномерно распределено*/
+    align-items: center; /*тоже самое, что и justify-content, только по перпенликулярно*/
+    margin-top: 30px;
+}
+.nav_menu_list{
+    margin-left: 450px;
+    height: 37.472412109375px;
+    top: 117px;
+    left: 632px;
+    font-size: 25px;
+    display: flex; /*назначаем все эдементы в nav_menu по колонкам*/
+    justify-content: space-between; /*выравниванем по центральной линии, первый и последний эл-т находятся по разным концам, а место между ними равномерно распределено*/
+    align-items: center; /*тоже самое, что и justify-content, только по перпенликулярно*/
+}
+.logo{
+    width: 354.4205322265625px;
+    height: 72.50619506835938px;
+    top: 105px;
+    left: 130px
+}
+.nav_menu_button{
+    border: none;
+    background-color: transparent; /* устанавливает прозрачный фон. */
+    cursor: pointer; /* устанавливает курсор, который ввыводится при наведении. */
+    margin-bottom: 23px;
+    margin-right: 75px;
+}
+.nav_menu_link{
+    margin-right: 100px;
+    font-size: 25px;
+    line-height: 60px; /* устанавливает интерлиньяж (межстрочный интервал) текста */
+    font-weight: 900; /* устанавливает насыщенность шрифта. Значение устанавливается от 100 до 900 с шагом 100. */
+}
+.nav_menu_link:hover{
+    color: #fff; /* делаем чтобы цвет ссылок менялся при наведение на белый */
+}
+.header_main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+.header_main_list_title{
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 39px;
+    padding-bottom: 29px;
+}
+.header_main_list_text{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    padding-bottom: 40px;
+}
+.header_main_list_button{
+    padding: 14px 18px;
+    font-weight: 400;
+    font-size: 24px;
+    border: none;
+    background-color: #E52626;
+    border-radius: 50px;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+.header_main_list_button:hover{
+    background-color: #881414;
+}
+.main{
+    width: auto;
+    height: 900px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.main_list_items{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-flow: row wrap;
+}
+.main_title{
+    text-align: center;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 39px;
+    padding-bottom: 29px;
+}
+.main_list_title{
+    height: 43px;
+    top: 1307px;
+    text-align: center;
+}
+footer{
+    background: linear-gradient(180deg, rgba(217, 217, 217, 0) 0%, #EDA61D 100%);
+}
+.footer{
+    width: auto;
+    height: 450px;
+
+}
+.footer_list{
+    line-height: 60px;
+    display: flex; /*назначаем все эдементы в nav_menu по колонкам*/
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.footer_list_item{
+    font-weight: 500;
+}
+.footer_text_text{
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.footer_social_list{
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
